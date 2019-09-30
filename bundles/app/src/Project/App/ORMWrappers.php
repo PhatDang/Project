@@ -12,6 +12,6 @@ class ORMWrappers extends \PHPixie\ORM\Wrappers\Implementation
      * @var array
      */
     protected $databaseEntities = array(
-        
+
     );
 }

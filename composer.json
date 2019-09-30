@@ -8,7 +8,6 @@
             "": [
                 "src/",
                 "tests/",
-
                 "bundles/app/src/",
                 "bundles/app/tests/"
             ]
