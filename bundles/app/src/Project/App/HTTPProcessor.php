@@ -2,8 +2,7 @@
 
 namespace Project\App;
 
-class HTTPProcessor extends \PHPixie\DefaultBundle\Processor\HTTP\Builder
-{
+class HTTPProcessor extends \PHPixie\DefaultBundle\Processor\HTTP\Builder {
     /**
      * @var Builder
      */
@@ -13,8 +12,7 @@ class HTTPProcessor extends \PHPixie\DefaultBundle\Processor\HTTP\Builder
      * Constructor
      * @param Builder $builder
      */
-    public function __construct($builder)
-    {
+    public function __construct($builder) {
         $this->builder = $builder;
     }
 
@@ -22,8 +20,7 @@ class HTTPProcessor extends \PHPixie\DefaultBundle\Processor\HTTP\Builder
      * Build 'greet' processor
      * @return HTTPProcessors\Greet
      */
-    protected function buildGreetProcessor()
-    {
+    protected function buildGreetProcessor() {
         $components = $this->builder->components();
 
         return new HTTPProcessors\Greet(

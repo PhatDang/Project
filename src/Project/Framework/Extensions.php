@@ -5,14 +5,12 @@ namespace Project\Framework;
 /**
  * Extensions registry.
   */
-class Extensions extends \PHPixie\Framework\Extensions
-{
+class Extensions extends \PHPixie\Framework\Extensions {
     /**
      * Extensions for the Template component
      * @return array
      */
-    public function templateExtensions()
-    {
+    public function templateExtensions() {
         return array_merge(parent::templateExtensions(), array(
            //add your Template Extensions here
         ));
@@ -22,8 +20,7 @@ class Extensions extends \PHPixie\Framework\Extensions
      * Format compilers for the Template component
      * @return array
      */
-    public function templateFormats()
-    {
+    public function templateFormats() {
         return array_merge(parent::templateFormats(), array(
             //add your Template Formats here
         ));
@@ -33,8 +30,7 @@ class Extensions extends \PHPixie\Framework\Extensions
      * Provider Builders for the Auth component
      * @return array
      */
-    public function authProviderBuilders()
-    {
+    public function authProviderBuilders() {
         return array_merge(parent::authProviderBuilders(), array(
             //add your Auth Provider Builders here
         ));

@@ -3,7 +3,6 @@
 return array(
     'type'      => 'group',
     'resolvers' => array(
-
         'default' => array(
             'type'     => 'pattern',
             'path'     => '(<processor>(/<action>))',
@@ -12,6 +11,5 @@ return array(
                 'action'    => 'default'
             )
         )
-
     )
 );
